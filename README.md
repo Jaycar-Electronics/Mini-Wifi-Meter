@@ -35,6 +35,8 @@ The easiest way to assemble is to get some spare resistors or components and sni
 
 It can be a bit hard to mount the ESP in a “straight” manner, but what we’re doing is attaching the two and mounting the OLED. Position the ESP and OLED on the bench with SDA and D1 lined up. Note that we’re not connecting SDA to D2, not D1, so use the previously built “U” shape to cross over and solder it in place, keeping alignment.
 
+[[images/IMAG0323.jpg|alt=Ushape]]
+
 Then flip the unit over, and solder the next U shape over SCL and D1.
 
 Use the last U shape to connect the ground to each other. The lead from the battery pack will come up and wrap around the middle of the U shape so leave some room there if needed.
