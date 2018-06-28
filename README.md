@@ -31,7 +31,7 @@ We connect the OLED because it's the closest, and provides the 3.3 pass through.
 
 ## Assembly
 
-The easiest way to assemble is to get some spare resistors or components and snip the leads off, then with the leads, make 3 “U” shapes using a pair of pliers.
+.The easiest way to assemble is to get some spare resistors or components and snip the leads off, then with the leads, make 3 “U” shapes using a pair of pliers.
 
 It can be a bit hard to mount the ESP in a “straight” manner, but what we’re doing is attaching the two and mounting the OLED. Position the ESP and OLED on the bench with SDA and D1 lined up. Note that we’re not connecting SDA to D2, not D1, so use the previously built “U” shape to cross over and solder it in place, keeping alignment.
 
