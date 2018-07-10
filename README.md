@@ -4,7 +4,7 @@ _Test and Measure_
 
 :+1:
 
-This handy little tool can be used to check for any WiFi signals around, use it to see how well the connection in your workshop is going or to see if there’s any free WiFi hotspots when you’re out and about. Using the beloved 8266 we’ve attached a screen and let it run off 2 AA batteries. The screen is suited for 5 but it tries (and succeeds) at running at the lower voltage. You could even use rechargeable AA batteries in this one.
+This handy little tool can be used to check for any WiFi signals around, use it to see how well the connection in your workshop is going or to see if there’s any free WiFi hotspots when you’re out and about. Using the beloved esp8266 we’ve attached a screen and let it run off 2 AA batteries. The screen is suited for 5v but it tries (and succeeds) at running at the lower voltage. You could even use rechargeable AA batteries in this one.
 
 ## Bill of Materials
 
@@ -27,7 +27,7 @@ This handy little tool can be used to check for any WiFi signals around, use it 
 |5V | VCC | |
 |3v3 | | Red |
 
-We connect the OLED because it's the closest, and provides the 3.3 pass through. You won't get a 5v supply unless a USB cable is connected.
+We connect the OLED because it's the closest, and provides the 3.3v pass through. You won't get a 5v supply unless a USB cable is connected.
 
 ## Assembly
 
@@ -36,6 +36,7 @@ The easiest way to assemble is to get some spare resistors or components and sni
 It can be a bit hard to mount the ESP in a “straight” manner, but what we’re doing is attaching the two and mounting the OLED. Position the ESP and OLED on the bench with SDA and D1 lined up. Note that we’re not connecting SDA to D2, not D1, so use the previously built “U” shape to cross over and solder it in place, keeping alignment.
 
 ![alt text](images/IMAG0323.jpg)
+_forgive the out of focus_
 
 Then flip the unit over, and solder the next U shape over SCL and D1.
 
