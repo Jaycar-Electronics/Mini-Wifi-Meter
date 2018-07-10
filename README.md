@@ -1,10 +1,10 @@
-# Mini Wifi Meter
+# Mini Wi-Fi Meter
 _Test and Measure_
 ### Author: D.West.
 
 :+1:
 
-This handy little tool can be used to check for any WiFi signals around, use it to see how well the connection in your workshop is going or to see if there’s any free WiFi hotspots when you’re out and about. Using the beloved esp8266 we’ve attached a screen and let it run off 2 AA batteries. The screen is suited for 5v but it tries (and succeeds) at running at the lower voltage. You could even use rechargeable AA batteries in this one.
+This handy little tool can be used to check for any Wi-Fi signals around, use it to see how well the connection in your workshop is going or to see if there’s any free Wi-Fi hotspots when you’re out and about. Using the beloved esp8266 we’ve attached a screen and let it run off 2 AA batteries. The screen is suited for 5v but it tries (and succeeds) at running at the lower voltage. You could even use rechargeable AA batteries in this one.
 
 ## Bill of Materials
 
@@ -57,4 +57,4 @@ The complete source code is available [here](https://github.com/duinotech/Mini_W
 Remember to change your Arduino environment to run the ESP8266, as specified in the [manual](https://www.jaycar.com.au/medias/sys_master/images/9093527371806/XC3802-manualMain.pdf)
 
 ## Use
-Simply plug in two AA batteries and switch the unit on. You should see text being displayed before a list of WiFi networks show and their signal strength.
+Simply plug in two AA batteries and switch the unit on. You should see text being displayed before a list of Wi-Fi networks show and their signal strength.
