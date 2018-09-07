@@ -10,9 +10,9 @@ This handy little tool can be used to check for any Wi-Fi signals around, use it
 
 |Qty|	Code|	Description|
 |---:| ---|---|
-|1|[XC3802](jaycar.com.au/p/XC3802)|Our favorite device the ESP8266|
-|1|[PH9280](jaycar.com.au/p/PH9280)|2AA Switched Battery Holder|
-|1|[XC4384](jaycar.com.au/p/XC4384)|OLED Module|
+|1|[XC3802](https://jaycar.com.au/p/XC3802)|Our favorite device the ESP8266|
+|1|[PH9280](https://jaycar.com.au/p/PH9280)|2AA Switched Battery Holder|
+|1|[XC4384](https://jaycar.com.au/p/XC4384)|OLED Module|
 | | | Some spare leads or wires|
 | | | Mounting screws and or hot-glue|
 
@@ -44,11 +44,14 @@ Use the last U shape to connect the ground to each other. The lead from the batt
 
 Next, get another lead from a resistor and bend one end of it at a 90-degree angle, put into VCC to check where to make another 90-degree bend, so you should have a much wider “U” shape. Snip to size and solder it in.
 
-There should now be 4 connections between the two boards and they should be held together fairly strongly.
+There should now be 4 connections between the two boards and they should be held together fairly strongly. You are trying to emulate a cross pattern over two sets of pins. Below is a diagram of the idea, you can picture it as green on one side and blue on the other.
+
+![kris cross pattern](images/eagle_schematic.png)
+_Line up the two boards so they're neat on the battery compartment, then use metal leads to form the connections_
 
 Run the battery leads up under where the modules are supposed to go, then place the modules over the wires so you can measure up where the wires are meant to come to. Position the modules so that the top of the OLED is pretty close to the slit on the battery compartment. Flip open the modules while keeping the wires in place, then snip and strip the wires to size so that the red wire goes in 3v3 and the black wire goes to the aforementioned ground U connection.
 
-Finally, check that the modules can be placed correctly, and use some small self-tapping screws to fix the OLED to the battery compartment. (TIP: [TD2089](jaycar.com.au/p/TD2089) is great for drilling pilot holes and is highly, highly recommended.)  check the clearance in the battery compartment, as depending on your screws, they might not make room for the batteries. Use a heavy duty pair of pliers to snip the underside of the screws and to give your batteries a bit more room.
+Finally, check that the modules can be placed correctly, and use some small self-tapping screws to fix the OLED to the battery compartment. (TIP: [TD2089](https://jaycar.com.au/p/TD2089) is great for drilling pilot holes and is highly, highly recommended.)  check the clearance in the battery compartment, as depending on your screws, they might not make room for the batteries. Use a heavy duty pair of pliers to snip the underside of the screws and to give your batteries a bit more room.
 
 ## Programming
 
