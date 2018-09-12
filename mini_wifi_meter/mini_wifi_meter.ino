@@ -1,10 +1,10 @@
 / *
  * Mini Wifi Meter project http://jaycar.com.au/mini-wifi-meter
- 
+
  * XC3802 esp8266
  * XC4384 OLED display
  * XC3850 protoshield
- 
+
  * Jaycar Electronics
  * Author: D.West
  */
@@ -34,9 +34,9 @@ void loop() {
   {
     display.setCursor(0,8*i);					//each line is 8 pixels high, so each loop drops 8,16,etc.
     display.print(WiFi.SSID(i));				//Service Set IDentifier
-    display.setCursor(display.width()-20,8*i);	//right align the RSSI 
+    display.setCursor(display.width()-20,8*i);	//right align the RSSI
     display.print(WiFi.RSSI(i));				//Received Signal Strength Indicator
   }
   display.display();
-  delay(1000);
+  delay(2000);
 }
