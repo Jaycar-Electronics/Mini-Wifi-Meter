@@ -1,3 +1,8 @@
+
+//these files are needed for the latest version of the 8266 library toolset.
+// they removed a macro from ESP8266WiFi.h and placed it in another library.
+// if you get a library not found error, remove the below libaries
+
 #include <ESP8266WiFi.h>
 #include <ESP8266WiFiAP.h>
 #include <ESP8266WiFiGeneric.h>
@@ -11,6 +16,9 @@
 #include <WiFiServerSecure.h>
 #include <WiFiUdp.h>
 
+// ===============================================================================
+// below is all that's needed
+// in the old version of the libraries:
 
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
