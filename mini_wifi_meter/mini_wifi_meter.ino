@@ -1,13 +1,17 @@
-/ *
- * Mini Wifi Meter project http://jaycar.com.au/mini-wifi-meter
+#include <ESP8266WiFi.h>
+#include <ESP8266WiFiAP.h>
+#include <ESP8266WiFiGeneric.h>
+#include <ESP8266WiFiMulti.h>
+#include <ESP8266WiFiScan.h>
+#include <ESP8266WiFiSTA.h>
+#include <ESP8266WiFiType.h>
+#include <WiFiClient.h>
+#include <WiFiClientSecure.h>
+#include <WiFiServer.h>
+#include <WiFiServerSecure.h>
+#include <WiFiUdp.h>
 
- * XC3802 esp8266
- * XC4384 OLED display
- * XC3850 protoshield
 
- * Jaycar Electronics
- * Author: D.West
- */
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 #include <ESP8266WiFi.h>
